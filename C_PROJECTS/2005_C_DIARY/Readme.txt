@@ -1,32 +1,34 @@
------------------------------------- Notas de la version, Agenda 1.0 ------------------------------------
-Diseño interno:
+------------------------------------ Release Notes, Agenda 1.0 ------- -----------------------------
+Internal design:
 
--Se cargan los datos ingresados asginando memoria dinamicamente en el momento del "ALTA" asi como en la apertura
-del archivo momento en el que se realiza una lectura inicial del archivo "DATOSAG.DAT".
--Se desrrollaron procesos de deteccion de errores contra la falla de apertura de archivos como asi
-también la falta de memoria al generar un nuevo elemento de la lista.
--El programa se basa en una unica lista de elementos en la cual impacta directamente el ABM de datos,
-a la vez de que se guarda todo en un archivo secuencial binario.
--Al momento no existen rutinas que validen la entrada de datos en todo el programa.
--Todavia no existen rutinas para generar el backup de informacion.
+-The entered data is loaded, allocating memory dynamically at the time of create as well as at opening
+of the file at which an initial reading of the "DATOSAG.DAT" file is performed.
 
-Interfaz de usuario:
+-Error detection processes were developed against file opening failures as well
+also out of memory when generating a new list item.
 
--La interfaz se basa en "modo texto" y corre sobre una ventana de MS-DOS.
--La interfaz principal del programa se basa en cuatro menues:
- "ABM Datos", "Consulta", "Backup de informacion" y "Salir del programa" que a su vez en los casos de "ABM Datos" 
-  y "Consulta" tienen submenues como se detalla a continuacion:
-   1- ABM Datos
-      1- Alta
-      2- Baja
-      3- Modificacion
-      4- Volver al menu anterior
+-The program is based on a single list of elements on which the ABM of data directly impacts,
+while everything is saved in a binary sequential file.
+-At the moment there are no routines that validate data entry throughout the program.
+-There are still no routines to generate information backup.
 
-   2- Consulta
-      1- Buscar por nombre
-      2- Listar Todos
-      3- Exportar
-      4- Volver al menu anterior
+User interface:
+
+-The interface is based on "text mode" and runs on an MS-DOS window.
+-The main interface of the program is based on four menus:
+ "ABM Data", "Query", "Backup of information" and "Exit the program" which in turn in the cases of "ABM Data" 
+  and "Query" have submenus as detailed below:
+   1- ABM Data
+      1- High
+      2- Low
+      3- Modification
+      4- Return to the previous menu
+
+   2- Consultation
+      1- Search by name
+      2- List All
+      3- Export
+      4- Return to the previous menu
 
 
 
