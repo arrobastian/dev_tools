@@ -1,0 +1,1 @@
+[YOUR_SERVER].msdb.dbo.sp_start_job @job_name = 'TheJOB'

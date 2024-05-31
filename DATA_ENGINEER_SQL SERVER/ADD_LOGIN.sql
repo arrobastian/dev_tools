@@ -1,0 +1,1 @@
+ALTER USER [your_user] WITH LOGIN = [your_login]
